@@ -1,2 +1,2 @@
 # GuessingGame
- HANGman type game written in Python
+HangME type game written in Python

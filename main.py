@@ -43,7 +43,7 @@ while guess != correctWord and not gameOver:  # Using not in to check for boolea
     guess_wrong_counter += 1
     guess_counter += 1
 
-    if guess_wrong_counter == 4:  # Function to give a random character hint to the player
+    if guess_wrong_counter == 4:  # Give a random character hint to the player after 4 incorrect attempts
         print("")
 
         randomValue = int(random.randint(0, len(correctWord) - 1))  # Picks a random number from 0 to the max length of the correct word. -1 to prevent from going out of bounds
